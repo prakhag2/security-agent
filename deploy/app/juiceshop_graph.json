@@ -1,0 +1,1184 @@
+{
+  "nodes": [
+    {
+      "id": "routes/verify",
+      "funcs": 29,
+      "files": 1
+    },
+    {
+      "id": "lib/utils",
+      "funcs": 25,
+      "files": 1
+    },
+    {
+      "id": "lib/insecurity",
+      "funcs": 23,
+      "files": 1
+    },
+    {
+      "id": "lib/antiCheat",
+      "funcs": 10,
+      "files": 1
+    },
+    {
+      "id": "lib/accuracy",
+      "funcs": 9,
+      "files": 1
+    },
+    {
+      "id": "lib/challengeUtils",
+      "funcs": 8,
+      "files": 1
+    },
+    {
+      "id": "routes/chat",
+      "funcs": 8,
+      "files": 1
+    },
+    {
+      "id": "routes/fileUpload",
+      "funcs": 8,
+      "files": 1
+    },
+    {
+      "id": "routes/videoHandler",
+      "funcs": 7,
+      "files": 1
+    },
+    {
+      "id": "routes/2fa",
+      "funcs": 6,
+      "files": 1
+    },
+    {
+      "id": "routes/login",
+      "funcs": 6,
+      "files": 1
+    },
+    {
+      "id": "routes/basketItems",
+      "funcs": 6,
+      "files": 1
+    },
+    {
+      "id": "routes/fileServer",
+      "funcs": 6,
+      "files": 1
+    },
+    {
+      "id": "routes/b2bOrder",
+      "funcs": 5,
+      "files": 1
+    },
+    {
+      "id": "routes/vulnCodeFixes",
+      "funcs": 5,
+      "files": 1
+    },
+    {
+      "id": "routes/vulnCodeSnippet",
+      "funcs": 5,
+      "files": 1
+    },
+    {
+      "id": "routes/order",
+      "funcs": 4,
+      "files": 1
+    },
+    {
+      "id": "routes/restoreProgress",
+      "funcs": 4,
+      "files": 1
+    },
+    {
+      "id": "routes/imageCaptcha",
+      "funcs": 4,
+      "files": 1
+    },
+    {
+      "id": "routes/deluxe",
+      "funcs": 4,
+      "files": 1
+    },
+    {
+      "id": "routes/payment",
+      "funcs": 4,
+      "files": 1
+    },
+    {
+      "id": "routes/orderHistory",
+      "funcs": 4,
+      "files": 1
+    },
+    {
+      "id": "routes/resetPassword",
+      "funcs": 4,
+      "files": 1
+    },
+    {
+      "id": "routes/showProductReviews",
+      "funcs": 4,
+      "files": 1
+    },
+    {
+      "id": "routes/recycles",
+      "funcs": 4,
+      "files": 1
+    },
+    {
+      "id": "routes/redirect",
+      "funcs": 4,
+      "files": 1
+    },
+    {
+      "id": "routes/userProfile",
+      "funcs": 4,
+      "files": 1
+    },
+    {
+      "id": "routes/metrics",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/address",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/authenticatedUsers",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/basket",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/continueCode",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/dataExport",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/delivery",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/easterEgg",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/premiumReward",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/privacyPolicyProof",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/languages",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/saveLoginIp",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/changePassword",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/createProductReviews",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/updateProductReviews",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/likeProductReviews",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/search",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/trackOrder",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/updateUserProfile",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "routes/currentUser",
+      "funcs": 3,
+      "files": 1
+    },
+    {
+      "id": "lib/is-docker",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "lib/is-heroku",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "lib/is-windows",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "lib/logger",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "routes/appVersion",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "routes/angular",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "routes/coupon",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "routes/countryMapping",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "routes/memory",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "routes/dataErasure",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "routes/captcha",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "routes/profileImageFileUpload",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "routes/profileImageUrlUpload",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "routes/repeatNotification",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "lib/codingChallenges",
+      "funcs": 2,
+      "files": 1
+    },
+    {
+      "id": "routes/wallet",
+      "funcs": 2,
+      "files": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "lib/antiCheat",
+      "target": "lib/utils",
+      "weight": 20952
+    },
+    {
+      "source": "routes/verify",
+      "target": "lib/challengeUtils",
+      "weight": 11946
+    },
+    {
+      "source": "routes/verify",
+      "target": "lib/utils",
+      "weight": 4374
+    },
+    {
+      "source": "routes/login",
+      "target": "lib/challengeUtils",
+      "weight": 2274
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/verify",
+      "weight": 1992
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/login",
+      "weight": 865
+    },
+    {
+      "source": "lib/insecurity",
+      "target": "lib/utils",
+      "weight": 822
+    },
+    {
+      "source": "lib/utils",
+      "target": "lib/is-docker",
+      "weight": 690
+    },
+    {
+      "source": "lib/utils",
+      "target": "lib/is-heroku",
+      "weight": 690
+    },
+    {
+      "source": "lib/utils",
+      "target": "lib/is-windows",
+      "weight": 690
+    },
+    {
+      "source": "routes/metrics",
+      "target": "lib/antiCheat",
+      "weight": 582
+    },
+    {
+      "source": "routes/verify",
+      "target": "lib/insecurity",
+      "weight": 572
+    },
+    {
+      "source": "routes/login",
+      "target": "lib/insecurity",
+      "weight": 566
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "lib/utils",
+      "weight": 535
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "lib/antiCheat",
+      "weight": 214
+    },
+    {
+      "source": "routes/login",
+      "target": "lib/utils",
+      "weight": 196
+    },
+    {
+      "source": "routes/verify",
+      "target": "routes/login",
+      "weight": 193
+    },
+    {
+      "source": "routes/search",
+      "target": "lib/utils",
+      "weight": 186
+    },
+    {
+      "source": "routes/fileServer",
+      "target": "lib/challengeUtils",
+      "weight": 180
+    },
+    {
+      "source": "routes/verify",
+      "target": "routes/metrics",
+      "weight": 173
+    },
+    {
+      "source": "routes/imageCaptcha",
+      "target": "routes/verify",
+      "weight": 155
+    },
+    {
+      "source": "routes/deluxe",
+      "target": "routes/verify",
+      "weight": 128
+    },
+    {
+      "source": "routes/2fa",
+      "target": "lib/insecurity",
+      "weight": 126
+    },
+    {
+      "source": "routes/resetPassword",
+      "target": "routes/verify",
+      "weight": 118
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "lib/logger",
+      "weight": 114
+    },
+    {
+      "source": "routes/fileUpload",
+      "target": "lib/utils",
+      "weight": 114
+    },
+    {
+      "source": "lib/antiCheat",
+      "target": "lib/logger",
+      "weight": 107
+    },
+    {
+      "source": "routes/wallet",
+      "target": "routes/verify",
+      "weight": 106
+    },
+    {
+      "source": "routes/chat",
+      "target": "routes/verify",
+      "weight": 100
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/metrics",
+      "weight": 98
+    },
+    {
+      "source": "routes/authenticatedUsers",
+      "target": "lib/insecurity",
+      "weight": 88
+    },
+    {
+      "source": "routes/coupon",
+      "target": "routes/verify",
+      "weight": 87
+    },
+    {
+      "source": "routes/fileUpload",
+      "target": "lib/challengeUtils",
+      "weight": 82
+    },
+    {
+      "source": "routes/2fa",
+      "target": "routes/verify",
+      "weight": 80
+    },
+    {
+      "source": "routes/resetPassword",
+      "target": "lib/challengeUtils",
+      "weight": 80
+    },
+    {
+      "source": "routes/redirect",
+      "target": "lib/utils",
+      "weight": 72
+    },
+    {
+      "source": "routes/fileServer",
+      "target": "lib/utils",
+      "weight": 70
+    },
+    {
+      "source": "routes/order",
+      "target": "lib/insecurity",
+      "weight": 52
+    },
+    {
+      "source": "routes/basket",
+      "target": "routes/verify",
+      "weight": 50
+    },
+    {
+      "source": "routes/search",
+      "target": "lib/challengeUtils",
+      "weight": 48
+    },
+    {
+      "source": "lib/antiCheat",
+      "target": "routes/verify",
+      "weight": 43
+    },
+    {
+      "source": "routes/captcha",
+      "target": "routes/verify",
+      "weight": 42
+    },
+    {
+      "source": "routes/changePassword",
+      "target": "routes/verify",
+      "weight": 42
+    },
+    {
+      "source": "routes/deluxe",
+      "target": "lib/insecurity",
+      "weight": 41
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/fileServer",
+      "weight": 41
+    },
+    {
+      "source": "routes/dataErasure",
+      "target": "routes/verify",
+      "weight": 37
+    },
+    {
+      "source": "routes/authenticatedUsers",
+      "target": "routes/verify",
+      "weight": 36
+    },
+    {
+      "source": "routes/basketItems",
+      "target": "lib/insecurity",
+      "weight": 36
+    },
+    {
+      "source": "routes/imageCaptcha",
+      "target": "lib/insecurity",
+      "weight": 36
+    },
+    {
+      "source": "routes/verify",
+      "target": "routes/showProductReviews",
+      "weight": 33
+    },
+    {
+      "source": "routes/angular",
+      "target": "lib/utils",
+      "weight": 32
+    },
+    {
+      "source": "routes/basketItems",
+      "target": "lib/challengeUtils",
+      "weight": 32
+    },
+    {
+      "source": "routes/dataExport",
+      "target": "lib/insecurity",
+      "weight": 32
+    },
+    {
+      "source": "routes/redirect",
+      "target": "lib/challengeUtils",
+      "weight": 32
+    },
+    {
+      "source": "routes/basketItems",
+      "target": "lib/utils",
+      "weight": 30
+    },
+    {
+      "source": "routes/fileServer",
+      "target": "lib/insecurity",
+      "weight": 30
+    },
+    {
+      "source": "routes/memory",
+      "target": "routes/verify",
+      "weight": 30
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/resetPassword",
+      "weight": 30
+    },
+    {
+      "source": "routes/redirect",
+      "target": "lib/insecurity",
+      "weight": 30
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/basketItems",
+      "weight": 28
+    },
+    {
+      "source": "routes/order",
+      "target": "lib/challengeUtils",
+      "weight": 27
+    },
+    {
+      "source": "lib/insecurity",
+      "target": "routes/verify",
+      "weight": 26
+    },
+    {
+      "source": "routes/currentUser",
+      "target": "lib/insecurity",
+      "weight": 24
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/2fa",
+      "weight": 23
+    },
+    {
+      "source": "routes/dataExport",
+      "target": "routes/verify",
+      "weight": 22
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/captcha",
+      "weight": 22
+    },
+    {
+      "source": "routes/resetPassword",
+      "target": "lib/insecurity",
+      "weight": 22
+    },
+    {
+      "source": "routes/2fa",
+      "target": "lib/utils",
+      "weight": 20
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/order",
+      "weight": 20
+    },
+    {
+      "source": "routes/restoreProgress",
+      "target": "lib/challengeUtils",
+      "weight": 20
+    },
+    {
+      "source": "routes/dataErasure",
+      "target": "lib/utils",
+      "weight": 20
+    },
+    {
+      "source": "routes/saveLoginIp",
+      "target": "routes/verify",
+      "weight": 20
+    },
+    {
+      "source": "routes/likeProductReviews",
+      "target": "routes/verify",
+      "weight": 20
+    },
+    {
+      "source": "routes/order",
+      "target": "routes/verify",
+      "weight": 19
+    },
+    {
+      "source": "routes/b2bOrder",
+      "target": "lib/utils",
+      "weight": 18
+    },
+    {
+      "source": "routes/chat",
+      "target": "lib/utils",
+      "weight": 18
+    },
+    {
+      "source": "routes/changePassword",
+      "target": "lib/insecurity",
+      "weight": 18
+    },
+    {
+      "source": "routes/continueCode",
+      "target": "routes/verify",
+      "weight": 16
+    },
+    {
+      "source": "routes/delivery",
+      "target": "lib/insecurity",
+      "weight": 16
+    },
+    {
+      "source": "routes/dataErasure",
+      "target": "lib/insecurity",
+      "weight": 16
+    },
+    {
+      "source": "routes/fileUpload",
+      "target": "routes/metrics",
+      "weight": 16
+    },
+    {
+      "source": "routes/trackOrder",
+      "target": "lib/utils",
+      "weight": 16
+    },
+    {
+      "source": "routes/currentUser",
+      "target": "lib/challengeUtils",
+      "weight": 16
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/search",
+      "weight": 15
+    },
+    {
+      "source": "routes/updateUserProfile",
+      "target": "routes/verify",
+      "weight": 15
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/imageCaptcha",
+      "weight": 14
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/fileUpload",
+      "weight": 14
+    },
+    {
+      "source": "routes/videoHandler",
+      "target": "lib/utils",
+      "weight": 14
+    },
+    {
+      "source": "routes/metrics",
+      "target": "routes/fileUpload",
+      "weight": 13
+    },
+    {
+      "source": "routes/verify",
+      "target": "routes/order",
+      "weight": 12
+    },
+    {
+      "source": "routes/showProductReviews",
+      "target": "lib/utils",
+      "weight": 12
+    },
+    {
+      "source": "routes/videoHandler",
+      "target": "routes/verify",
+      "weight": 12
+    },
+    {
+      "source": "routes/vulnCodeSnippet",
+      "target": "lib/codingChallenges",
+      "weight": 12
+    },
+    {
+      "source": "routes/2fa",
+      "target": "lib/challengeUtils",
+      "weight": 11
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/angular",
+      "weight": 11
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/resetPassword",
+      "weight": 11
+    },
+    {
+      "source": "routes/verify",
+      "target": "routes/redirect",
+      "weight": 11
+    },
+    {
+      "source": "routes/order",
+      "target": "lib/utils",
+      "weight": 10
+    },
+    {
+      "source": "routes/coupon",
+      "target": "lib/insecurity",
+      "weight": 10
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/restoreProgress",
+      "weight": 10
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/redirect",
+      "weight": 10
+    },
+    {
+      "source": "routes/vulnCodeSnippet",
+      "target": "lib/accuracy",
+      "weight": 10
+    },
+    {
+      "source": "routes/verify",
+      "target": "routes/dataErasure",
+      "weight": 9
+    },
+    {
+      "source": "routes/angular",
+      "target": "routes/verify",
+      "weight": 8
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/chat",
+      "weight": 8
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/dataExport",
+      "weight": 8
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/payment",
+      "weight": 8
+    },
+    {
+      "source": "routes/deluxe",
+      "target": "lib/utils",
+      "weight": 8
+    },
+    {
+      "source": "routes/fileUpload",
+      "target": "routes/verify",
+      "weight": 8
+    },
+    {
+      "source": "routes/fileServer",
+      "target": "routes/verify",
+      "weight": 8
+    },
+    {
+      "source": "routes/updateProductReviews",
+      "target": "lib/challengeUtils",
+      "weight": 8
+    },
+    {
+      "source": "routes/trackOrder",
+      "target": "lib/challengeUtils",
+      "weight": 8
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/currentUser",
+      "weight": 8
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/currentUser",
+      "weight": 8
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "lib/accuracy",
+      "weight": 8
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/basketItems",
+      "weight": 7
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/deluxe",
+      "weight": 7
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/changePassword",
+      "weight": 7
+    },
+    {
+      "source": "routes/verify",
+      "target": "routes/videoHandler",
+      "weight": 7
+    },
+    {
+      "source": "routes/b2bOrder",
+      "target": "lib/challengeUtils",
+      "weight": 6
+    },
+    {
+      "source": "routes/basket",
+      "target": "lib/challengeUtils",
+      "weight": 6
+    },
+    {
+      "source": "routes/basket",
+      "target": "lib/utils",
+      "weight": 6
+    },
+    {
+      "source": "routes/dataExport",
+      "target": "lib/challengeUtils",
+      "weight": 6
+    },
+    {
+      "source": "routes/metrics",
+      "target": "lib/utils",
+      "weight": 6
+    },
+    {
+      "source": "routes/profileImageFileUpload",
+      "target": "lib/utils",
+      "weight": 6
+    },
+    {
+      "source": "routes/videoHandler",
+      "target": "lib/challengeUtils",
+      "weight": 6
+    },
+    {
+      "source": "routes/repeatNotification",
+      "target": "lib/challengeUtils",
+      "weight": 6
+    },
+    {
+      "source": "routes/verify",
+      "target": "routes/search",
+      "weight": 6
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/userProfile",
+      "weight": 6
+    },
+    {
+      "source": "routes/updateUserProfile",
+      "target": "lib/insecurity",
+      "weight": 6
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/vulnCodeFixes",
+      "weight": 6
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "lib/insecurity",
+      "weight": 5
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/address",
+      "weight": 5
+    },
+    {
+      "source": "routes/verify",
+      "target": "routes/b2bOrder",
+      "weight": 5
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/coupon",
+      "weight": 5
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/memory",
+      "weight": 5
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/delivery",
+      "weight": 5
+    },
+    {
+      "source": "routes/userProfile",
+      "target": "lib/insecurity",
+      "weight": 5
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/vulnCodeSnippet",
+      "weight": 5
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/wallet",
+      "weight": 5
+    },
+    {
+      "source": "routes/b2bOrder",
+      "target": "lib/insecurity",
+      "weight": 4
+    },
+    {
+      "source": "routes/basketItems",
+      "target": "routes/verify",
+      "weight": 4
+    },
+    {
+      "source": "routes/fileUpload",
+      "target": "lib/insecurity",
+      "weight": 4
+    },
+    {
+      "source": "routes/verify",
+      "target": "routes/deluxe",
+      "weight": 4
+    },
+    {
+      "source": "routes/deluxe",
+      "target": "lib/challengeUtils",
+      "weight": 4
+    },
+    {
+      "source": "routes/changePassword",
+      "target": "lib/challengeUtils",
+      "weight": 4
+    },
+    {
+      "source": "routes/showProductReviews",
+      "target": "lib/challengeUtils",
+      "weight": 4
+    },
+    {
+      "source": "routes/showProductReviews",
+      "target": "lib/insecurity",
+      "weight": 4
+    },
+    {
+      "source": "routes/verify",
+      "target": "routes/updateProductReviews",
+      "weight": 4
+    },
+    {
+      "source": "routes/updateProductReviews",
+      "target": "lib/insecurity",
+      "weight": 4
+    },
+    {
+      "source": "routes/likeProductReviews",
+      "target": "lib/insecurity",
+      "weight": 4
+    },
+    {
+      "source": "routes/profileImageFileUpload",
+      "target": "lib/insecurity",
+      "weight": 4
+    },
+    {
+      "source": "routes/profileImageUrlUpload",
+      "target": "lib/insecurity",
+      "weight": 4
+    },
+    {
+      "source": "routes/profileImageUrlUpload",
+      "target": "lib/utils",
+      "weight": 4
+    },
+    {
+      "source": "routes/recycles",
+      "target": "lib/utils",
+      "weight": 4
+    },
+    {
+      "source": "routes/search",
+      "target": "routes/verify",
+      "weight": 4
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/search",
+      "weight": 4
+    },
+    {
+      "source": "routes/verify",
+      "target": "routes/trackOrder",
+      "weight": 4
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/trackOrder",
+      "weight": 4
+    },
+    {
+      "source": "routes/vulnCodeFixes",
+      "target": "lib/accuracy",
+      "weight": 4
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/2fa",
+      "weight": 3
+    },
+    {
+      "source": "routes/b2bOrder",
+      "target": "routes/verify",
+      "weight": 3
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/basket",
+      "weight": 3
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/continueCode",
+      "weight": 3
+    },
+    {
+      "source": "routes/continueCode",
+      "target": "lib/challengeUtils",
+      "weight": 3
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/dataExport",
+      "weight": 3
+    },
+    {
+      "source": "lib/insecurity",
+      "target": "routes/metrics",
+      "weight": 3
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/orderHistory",
+      "weight": 3
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/profileImageFileUpload",
+      "weight": 3
+    },
+    {
+      "source": "lib/challengeUtils",
+      "target": "routes/videoHandler",
+      "weight": 3
+    },
+    {
+      "source": "lib/utils",
+      "target": "routes/repeatNotification",
+      "weight": 3
+    },
+    {
+      "source": "routes/userProfile",
+      "target": "lib/utils",
+      "weight": 3
+    }
+  ],
+  "total_packages": 69,
+  "total_funcs": 308,
+  "total_edges": 172
+}

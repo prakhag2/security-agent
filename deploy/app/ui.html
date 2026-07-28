@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AI Vulnerability Scanner — OWASP Juice Shop</title>
+<script src="d3.v7.min.js"></script>
+<link rel="stylesheet" href="static/styles.css?v=20260528b">
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="app-header">
+    <h1 class="app-title">AI Vulnerability Scanner</h1>
+    <p class="app-subtitle">OWASP Juice Shop</p>
+  </div>
+</div>
+<div class="tab-bar">
+  <button id="tab-btn-complexity" class="active" onclick="switchTab('complexity')">Complexity</button>
+  <button id="tab-btn-flow" onclick="switchTab('flow')">Flow</button>
+  <button id="tab-btn-scan" onclick="switchTab('scan')">Scan</button>
+</div>
+
+<!-- Tab 1: Complexity (Package Graph) -->
+<div id="tab-complexity" class="tab-panel active">
+  <div id="graph-container">
+    <div id="graph-loading">Loading package graph...</div>
+    <div id="graph-stats" style="display:none"></div>
+    <div id="graph-tooltip"></div>
+  </div>
+</div>
+
+<!-- Tab 2: Flow (Call Tree + Neo4j Graph) -->
+<div id="tab-flow" class="tab-panel">
+  <div class="pipeline-banner" id="pipeline-banner-juiceshop">
+    <div class="pipeline-step">
+      <div class="pipeline-label">Test Case</div>
+      <div class="pipeline-desc">Juice Shop API test</div>
+    </div>
+    <div class="pipeline-arrow">&rarr;</div>
+    <div class="pipeline-step">
+      <div class="pipeline-label">Babel AST</div>
+      <div class="pipeline-desc">Module._compile hook</div>
+    </div>
+    <div class="pipeline-arrow">&rarr;</div>
+    <div class="pipeline-step">
+      <div class="pipeline-label">Runtime Trace</div>
+      <div class="pipeline-desc">Per-test-case capture</div>
+    </div>
+    <div class="pipeline-arrow">&rarr;</div>
+    <div class="pipeline-step">
+      <div class="pipeline-label">Call Tree</div>
+      <div class="pipeline-desc">Express route → lib</div>
+    </div>
+  </div>
+  <div class="toolbar flow-toolbar">
+    <select id="flow-select" onchange="loadFlowTest(this.value)">
+      <option value="">-- Select a test --</option>
+    </select>
+    <div class="flow-view-toggle" id="flow-view-toggle">
+      <button id="flow-view-tree" class="flow-view-btn active" onclick="setFlowView('tree')">Call Tree</button>
+      <button id="flow-view-graph" class="flow-view-btn" onclick="setFlowView('graph')">Neo4j Graph</button>
+    </div>
+  </div>
+  <div id="flow-content">
+    <div class="replay-empty">Select a test to view its call tree</div>
+  </div>
+</div>
+
+<!-- Tab 3: Scan (3-Agent Vulnerability Pipeline) -->
+<div id="tab-scan" class="tab-panel">
+  <div class="toolbar scan-toolbar">
+    <div class="scan-mode-toggle">
+      <button id="scan-mode-static" class="scan-mode-btn" onclick="setScanMode('static')">Static Analysis</button>
+      <button id="scan-mode-dynamic" class="scan-mode-btn active" onclick="setScanMode('dynamic')">Dynamic Tracing</button>
+    </div>
+    <select id="scan-select" onchange="scanTestChanged(this.value)" class="scan-dynamic-only">
+      <option value="">-- Select a test --</option>
+    </select>
+    <button id="scan-run-btn" onclick="runVulnScan()" class="scan-dynamic-only">Run Vulnerability Scan</button>
+    <button id="scan-load-btn" onclick="loadSavedScans()" class="scan-dynamic-only">Load Previous</button>
+    <div class="status-indicator" id="scan-status-indicator">
+      <div class="pulse idle" id="scan-pulse"></div>
+      <span id="scan-status-text">Ready</span>
+    </div>
+  </div>
+  <div id="scan-content-dynamic">
+    <div class="scan-empty">Select a test and click "Run Vulnerability Scan"<br><small>3-agent pipeline: Planner → Attacker → Verifier</small></div>
+  </div>
+  <div id="scan-content-static" style="display:none">
+    <div class="scan-empty">Loading static analysis findings...</div>
+  </div>
+</div>
+
+<script src="static/app.js?v=20260528b"></script>
+</body>
+</html>

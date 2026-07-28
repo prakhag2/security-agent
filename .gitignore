@@ -1,0 +1,14 @@
+# deploy-time secrets & live state (never commit)
+deploy/.env.deploy
+deploy/state.env
+
+# python
+__pycache__/
+*.pyc
+
+# generated scan output (produced at runtime, mounted from EFS /data)
+deploy/app/call_trees/
+deploy/app/merged_trees/
+deploy/app/traces_targeted/
+deploy/app/juiceshop_traces/
+deploy/app/juiceshop_raw_traces/
